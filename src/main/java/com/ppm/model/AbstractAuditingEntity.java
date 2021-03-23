@@ -51,14 +51,6 @@ public abstract class AbstractAuditingEntity implements Serializable {
     @JsonIgnore
     private Instant modificaFecha = Instant.now();
 
-//    public String getCreacionUsuario() {
-//        return creacionUsuario;
-//    }
-//
-//    public void setCreacionUsuario(String creacionUsuario) {
-//        this.creacionUsuario = creacionUsuario;
-//    }
-
     public String getCreacionInfo() {
         return creacionInfo;
     }
@@ -74,14 +66,6 @@ public abstract class AbstractAuditingEntity implements Serializable {
     public void setCreacionFecha(Instant creacionFecha) {
         this.creacionFecha = creacionFecha;
     }
-
-//    public String getModificaUsuario() {
-//        return modificaUsuario;
-//    }
-//
-//    public void setModificaUsuario(String modificaUsuario) {
-//        this.modificaUsuario = modificaUsuario;
-//    }
 
     public String getModificaInfo() {
         return modificaInfo;

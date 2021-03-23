@@ -1,6 +1,5 @@
 package com.ppm.controller.catalogos;
 
-import com.ppm.model.catalogos.Animal;
 import com.ppm.model.catalogos.TipoAnimal;
 import com.ppm.repository.catalogos.TipoAnimalRepository;
 import io.swagger.annotations.Api;
