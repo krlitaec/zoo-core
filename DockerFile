@@ -1,0 +1,4 @@
+FROM openjdk:11
+ADD target/ZooApi.jar ZooApi.jar
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar" , "ZooApi.jar"]
